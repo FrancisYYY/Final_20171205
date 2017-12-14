@@ -1,0 +1,530 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo</title>
+
+<link rel="stylesheet" href="css/photo/photo-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/photo/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/photo/component.css" />
+
+<script type="text/javascript" src="js/photo/jquery-2.0.2.min.js"></script>
+<script type="text/javascript" src="js/photo/jquery-ui-1.10.4.min.js"></script>
+<script type="text/javascript" src="js/photo/3-panel-slider.js"></script>
+<script src="js/photo/modernizr.custom.js"></script>
+</head>
+
+<body>
+
+<!--header-->
+<div class="header">
+	<div class="header-hd">
+		<a href="#">
+			<img src="img/icon.png" alt="logo" height="50px">
+		</a>
+		<ul class="nav">
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Photo.html">Photo</a></li>
+				<li><a href="Plan.html">Plan</a></li>
+				<li><a href="community.html">Community</a></li>
+		</ul>
+
+		<a href="Profile.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> User</a>
+		<div class="search">
+			<form>
+				<input type="text" name="kw" class="keyword" placeholder="Search">
+
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</form>
+		</div>
+	</div>
+</div>
+
+				<!--Banner-->
+<div id="slider" style="height: 400px">
+	<div id="slider-panels">
+		<div id="slider-panels-next"><span class="iconb" data-icon="&#xe24e;"></span></div>
+		<div id="slider-panels-previous"><span class="iconb" data-icon="&#xe24b;"></span></div>
+
+		<div id="slider-panel-images">
+			<img src="img/photo/1.jpg" width="900" height="400" />
+			<img src="img/photo/2.jpg" width="900" height="400" />
+			<img src="img/photo/3.jpg" width="900" height="400" />
+			<img src="img/photo/4.jpg" width="900" height="400" />
+		</div>
+
+		<div id="slider-panel-left">
+			<div id="slider-panel-left-carousel"></div>
+		</div>
+
+		<div id="slider-panel-center">
+			<div id="slider-panel-center-carousel"></div>
+		</div>
+
+		<div id="slider-panel-right">
+			<div id="slider-panel-right-carousel"></div>
+		</div>
+
+	</div>
+</div>
+
+
+<!--Main-->
+
+
+
+
+<div class="container">
+
+  <header class="clearfix">
+
+    <h1>Photo Gallery</h1>
+
+  </header>
+
+  <div id="grid-gallery" class="grid-gallery">
+
+    <section class="grid-wrap">
+
+      <ul class="grid">
+
+        <li class="grid-sizer"></li>
+
+        <!-- Photo Wall -->
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p1.jpg" alt="img01"/>
+
+            <figcaption>
+
+              <h3>Hana, Hawaii</h3>
+
+              <p>Published-July 1, 2015</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p2.jpg" alt="img02"/>
+
+            <figcaption>
+
+              <h3>Trossach</h3>
+
+              <p>Published-April 22, 2017 </p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p3.jpg" alt="img03"/>
+
+            <figcaption>
+
+              <h3>Clarity</h3>
+
+              <p>Published-February 26, 2017</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p4.jpg" alt="img04"/>
+
+            <figcaption>
+
+              <h3>Yosemite Valley</h3>
+
+              <p>Published-June 18, 2017 </p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p5.jpg" alt="img05"/>
+
+            <figcaption>
+
+              <h3>Cattle Herders</h3>
+
+              <p>Published-June 21, 2016 </p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p6.jpg" alt="img06"/>
+
+            <figcaption>
+
+              <h3>‘Who Are We?’</h3>
+
+              <p>Published-October 5, 2016</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p7.jpg" alt="img01"/>
+
+            <figcaption>
+
+              <h3>Journey</h3>
+
+              <p>Published-January 29, 2017</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p8.jpg" alt="img02"/>
+
+            <figcaption>
+
+              <h3>Through the Eye</h3>
+
+              <p>Published-June 1, 2017</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p9.jpg" alt="img03"/>
+
+            <figcaption>
+
+              <h3>Shell</h3>
+
+              <p>Published-August 25, 2016</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p10.jpg" alt="img04"/>
+
+            <figcaption>
+
+              <h3>Full Of Stars</h3>
+
+              <p>Published-January 2, 2017</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p11.jpg" alt="img05"/>
+
+            <figcaption>
+
+              <h3>winding road</h3>
+
+              <p>Published-July 9, 2017</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+        <li>
+
+          <figure> <img src="img/photo/thumb/p12.jpg" alt="img01"/>
+
+            <figcaption>
+
+              <h3>Water love</h3>
+
+              <p>Published-May 10, 2017.</p>
+
+            </figcaption>
+
+          </figure>
+
+        </li>
+
+
+      </ul>
+
+    </section>
+
+    <!-- // inside content and photo -->
+
+    <section class="slideshow">
+
+      <ul>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Return trip from Hana, Hawaii</h3>
+
+              <p>Published on July 1, 2015</p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p1.jpg" alt="img01"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Trossach Reflections</h3>
+
+              <p>One of the best things about living in Scotland is just how close you are to stunning scenery, pretty much wherever you are. The Trossachs are often overlooked in favour of the more iconic landscapes of the north-west highlands. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p2.jpg" alt="img02"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Clarity from above</h3>
+
+              <p>Clarity from above leads to clarity everywhere. When we split Unsplash into its own company a few months ago, we knew we’d be creating more opportunity. But we also knew that more doesn’t mean better.   </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p3.jpg" alt="img03"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Yosemite Valley</h3>
+
+              <p>Just after sunrise we found this location in the center of the valley with a beautiful view of Yosemite Falls. Right now all the waterfalls are flowing from all the snow this winter. They should be flowing year round. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p4.jpg" alt="img04"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Forrester Station, Alpha, Australia</h3>
+
+              <p>In 2013 I visited my relatives on Forrester Station in the Queensland outback for a week. One evening I helped drive a herd of young cattle back to their paddock. I noticed how amazing the golden sunset light looked through the dust clouds thrown up by the cattle. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p5.jpg" alt="img05"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>‘Who Are We?’</h3>
+
+              <p>After a long day of backpacking, I snapped this photo on Zion National Park’s West Rim Trail at about 7,000 feet. In the dark hush of night, my group was awestruck by the luster and enormity of the Milky Way Galaxy. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p6.jpg" alt="img06"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Monti della Meta, Italy</h3>
+
+              <p>January 28. 7.06 AM. Molise - Italy: my Homeland. We were finally arrived: Morrone Delle Rose: 2310 altitude feet. Today however has been very hard: we had departed preparing us for conditions of fresh snow seen the last days of snowfall, but snow had left the place to the ice. It’s been hard, </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p7.jpg" alt="img01"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>El Matador State Beach, Malibu, United States</h3>
+
+              <p>When I first moved to Los Angeles from the Pacific Northwest I was genuinely worried I had traded my majestic mountains for flat beaches and brown hills. After doing a bit of exploring my wife and I stumbled upon El Matador State Beach in Malibu, CA. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p8.jpg" alt="img02"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Minorca, Spain</h3>
+
+              <p>I took this photo a few days ago, during my holidays in Minorca, a tiny island where I was born. It’s been almost five years since I left my home now. I stumbled upon this empty shell while I was scuba diving and I asked my girlfriend to hold it so I could take a photo of it. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p9.jpg" alt="img03"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Snowdonia National Park, United Kingdom</h3>
+
+              <p>Exploring the hills of Snowdonia with only a billion stars for company. I don’t remember ever having a clearer night in the UK. It’s moments like these that make me fall in love with photography. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p10.jpg" alt="img04"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Castleton, United Kingdom</h3>
+
+              <p>The famous Mam Tor winding road. Well, been after this shot for a while now. Every time ive been before its either been too cloudy, rainy, or cant even park because its that busy. </p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p11.jpg" alt="img05"/> </figure>
+
+        </li>
+
+        <li>
+
+          <figure>
+
+            <figcaption>
+
+              <h3>Les Saintes (Terre-de-Haut), Guadeloupe</h3>
+
+              <p>Take this shot in Guadaloupe for the elopment of two lovers.</p>
+
+            </figcaption>
+
+            <img src="img/photo/large/p12.jpg" alt="img01"/> </figure>
+
+        </li>
+
+
+
+      </ul>
+
+      <nav> <span class="icon nav-prev"></span> <span class="icon nav-next"></span> <span class="icon nav-close"></span> </nav>
+
+      <div class="info-keys icon">Navigate with arrow keys</div>
+
+    </section>
+  </div>
+
+</div>
+
+
+<!--Footer-->
+				<div class="footer">
+				<p class="fl2">© Simple Trip, LLC 2017</p>
+				<a href="#"><img class="ap" src="img/apple.jpg" alt="apple" width="190"></a>
+				<a href="#"><img class="ap1" src="img/google.jpg" alt="google" width="190"></a>
+				<p class="fl1">
+					If you are using a screen reader and are having problems using this website, please call 1-844-462-8299 for assistance.
+					</p>
+				</div>
+
+
+<script src="js/photo/imagesloaded.pkgd.min.js"></script>
+<script src="js/photo/masonry.pkgd.min.js"></script>
+<script src="js/photo/classie.js"></script>
+<script src="js/photo/cbpGridGallery.js"></script>
+<script src="js/photo/photo/photo.js" type="text/javascript"></script>
+<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+		</script>
+
+</body>
+</html>

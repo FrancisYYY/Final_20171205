@@ -1,0 +1,128 @@
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{padding: 0; margin: 0;}
+body{font-family: 'Raleway', sans-serif; }
+ul{list-style: none;}
+
+a{text-decoration:none;}
+.header-wapper{height: 100px;position: relative;}
+
+.header{height:70px; width: 100%; background: #ffffff; position: fixed; top: 0; left: 0; z-index:9999 }
+.header-hd{width: 100%; margin: 0 auto;}
+.header-hd a img{margin-left: 5px;}
+.header-hd a{color:rgba(123,123,123,1.00); }
+.header-hd a:hover{color:rgba(0,0,0,1.00);text-decoration:none;}
+
+.header a{font-size: 20px; line-height: 70px;}
+.header-hd a img{position: absolute; top: 10px; left: 20px;}
+
+.login{float: right; padding-right: 20px;}
+
+.nav{float: left; position: absolute; left: 100px;}
+.nav li{float: left;}
+.nav a{line-height: 70px; display: block; padding: 0 20px;transition:1.2s; color: rgba(123,123,123,1.00); font-family: 'Raleway', sans-serif;}
+.nav a:hover{background:rgba(232,232,232,1.00); color: rgba(0,0,0,1.00);text-decoration:none;}
+.search{float: right; margin-right: 30px; width: 208px; height: 25px; border: 1px solid #979797; margin-top: 22px; border-radius:15px;}
+.search input{display: block; float: left; outline: none;}
+.search .keyword{width: 155px; height: 18px; padding: 0 10px; border: none; border-right: 1px solid #979797; margin-top: 4.5px; margin-left: 4px;}
+.fa {margin-top: 3px; margin-left: 6px; cursor: pointer;}
+
+
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html .group {
+	height: 1%;
+}
+*:first-child+html .group {
+	min-height: 1px;
+}
+body {
+	background: #ddd url(../images/noise.jpg);
+	font-family: Arial, Helvetica, sans-serif;
+}
+ @font-face {
+ font-family: 'BonvenoCFLight';
+ src: url('../fonts/BonvenoCF-Light-webfont.eot?') format('eot'),  url('../fonts/BonvenoCF-Light-webfont.woff') format('woff'),  url('../fonts/BonvenoCF-Light-webfont.ttf') format('truetype'),  url('../fonts/BonvenoCF-Light-webfont.svg#webfontIEwcSbIo') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'AdelleBasicBold';
+ src: url('../fonts/adellebasic_bold-webfont.eot?') format('eot'),  url('../fonts/adellebasic_bold-webfont.woff') format('woff'),  url('../fonts/adellebasic_bold-webfont.ttf') format('truetype'),  url('../fonts/adellebasic_bold-webfont.svg#webfontll9eFuSn') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+#container {
+	width: 920px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+#header {
+	height: 36px;
+	background: url(../images/bluesquares.gif);
+	position: relative;
+}
+#header a.g3d {
+	background: url(../images/g3dlabs.png);
+	text-indent: -9999px;
+	width: 145px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	left: 12px;
+	top: 4px;
+}
+h1 {
+	background: url(http://intranet.global3digital.com/intranet/assets/images/g3dlogo.gif) no-repeat;
+	width: 170px;
+	height: 38px;
+	text-indent: -9999px;
+}
+h1, h2, h3, p {
+	color: #333;
+}
+h2 {
+	font-family: 'AdelleBasicBold', Arial, sans-serif;
+}
+h3 {
+	font-family: 'BonvenoCFLight', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+a {
+	text-decoration: none;
+	color:rgba(42,42,42,1.00);
+}
+a.ig:hover {
+	background: #0090e2;
+	color: #fff;
+	padding: 3px 10px;
+	border-radius: 20px;
+}
+p {
+	line-height: 23px;
+	margin-bottom: 20px;
+}
+p:last-of-type {
+	margin-bottom: 0px;
+}
+#carbonads-container {
+	margin: 0 auto 50px;
+	width: 300px;
+}
+#carbonads-container .carbonad .carbonad-tag {
+	text-align: left !important;
+}
+
+ 
+.footer{width: 100%; height: 200px;background: rgba(37,37,37,1.00); margin-top: 50px; position: relative;}
+.fl2{color: antiquewhite; width: 180px; height: 40px;  position: absolute; top: 20px; left: 860px;}
+.ap{   position: absolute; top: 70px; left: 960px;}
+.ap1{   position: absolute; top: 70px; left: 760px;}
+.fl1 {color: antiquewhite; width: 850px; height: 40px;  position: absolute; top: 160px; left: 520px;}
+ 
